@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="74.37" tests="4" failures="1" errors="0">
+   <testsuite name="TestSuite1" tests="4" failures="1" errors="0" time="74.37" skipped="0" timestamp="2023-04-26 17:20:43" hostname="141572 - 2G53N13.ap.corp.arrow.com" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041"/>
+         <property name="logFiles" value="C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041\\1682509899087.png, C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041\\1682509899252.png"/>
+         <property name="hostName" value="141572 - 2G53N13.ap.corp.arrow.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="10.126.68.237"/>
+         <property name="sessionId" value="c3f6f6767a93f5f962a7793fa81957d5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="7.735" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-04-26 17:20:43 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-04-26 17:20:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 17:20:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 17:20:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 17:20:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 17:20:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:20:48 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:20:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:20:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:20:49 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:20:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:20:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab"), 10): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:20:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:20:50 - [TEST_STEP][PASSED] - assert verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab")): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:20:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:20:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-26 17:20:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="47.657" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class=&quot;app_logo&quot;]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-04-26 17:20:51 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-04-26 17:20:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 17:20:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 17:20:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 17:20:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 17:20:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:20:54 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:20:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:20:55 - [MESSAGE][PASSED] - Text 'locked_out_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:20:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:20:56 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:20:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:20:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:20:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab"), 10): Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+
+2023-04-26 17:21:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="app_logo"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-26 17:21:07 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+
+2023-04-26 17:21:07 - [TEST_STEP][FAILED] - assert verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab")): Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-04-26 17:21:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="app_logo"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-26 17:21:39 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041\\1682509899087.png]]
+
+2023-04-26 17:21:39 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\141572\\git\\KTP\\Reports\\20230426_172041\\TestSuite1\\20230426_172041\\1682509899252.png]]]]></system-out>
+         <system-err><![CDATA[2023-04-26 17:20:51 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="7.172" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-04-26 17:21:39 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-04-26 17:21:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 17:21:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-26 17:21:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 17:21:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 17:21:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 17:21:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:21:43 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:21:43 - [MESSAGE][PASSED] - Text 'problem_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:21:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:21:44 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:21:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab"), 10): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:45 - [TEST_STEP][PASSED] - assert verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab")): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-26 17:21:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="11.376" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-04-26 17:21:46 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-04-26 17:21:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 17:21:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 17:21:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 17:21:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 17:21:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:21:49 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 17:21:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), Username): Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:21:50 - [MESSAGE][PASSED] - Text 'performance_glitch_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 17:21:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), Password): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:21:50 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 17:21:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 17:21:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab"), 10): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:56 - [TEST_STEP][PASSED] - assert verifyElementVisible(findTestObject("Object Repository/Page_Swag Labs/txt_swag_lab")): Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+
+2023-04-26 17:21:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-04-26 17:21:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-26 17:20:43 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-04-26 17:20:43 - [TEST_SUITE][FAILED] - TestSuite1: Test Cases/Login FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_Swag Labs/txt_swag_lab' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$4.call(Unknown Source)
+	at Login.run(Login:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1682509841188.run(TempTestSuite1682509841188.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Page_Swag Labs/txt_swag_lab' located by '//div[@class="app_logo"]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

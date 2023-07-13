@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2,Chrome 112.0.0.0,,,2023-04-26 17:34:43,2023-04-26 17:35:10,27.775s,PASSED
+,,,,,,,
+Test Cases/verifyPriceInCart,Chrome 112.0.0.0,,,2023-04-26 17:34:43,2023-04-26 17:34:57,14.389s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-26 17:34:43,2023-04-26 17:34:46,2.515s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-26 17:34:46,2023-04-26 17:34:47,1.180s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-26 17:34:47,2023-04-26 17:34:47,0.159s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 112.0.0.0,,,2023-04-26 17:34:47,2023-04-26 17:34:48,0.794s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 112.0.0.0,,,2023-04-26 17:34:48,2023-04-26 17:34:49,0.733s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 112.0.0.0,,,2023-04-26 17:34:49,2023-04-26 17:34:49,0.463s,PASSED
+"rowCount = findTestData(""ProductData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-26 17:34:49,2023-04-26 17:34:50,0.675s,PASSED
+arr = new java.util.ArrayList(),Chrome 112.0.0.0,,,2023-04-26 17:34:50,2023-04-26 17:34:50,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 112.0.0.0,,,2023-04-26 17:34:50,2023-04-26 17:34:50,0.099s,PASSED
+for (String pp : arr),Chrome 112.0.0.0,,,2023-04-26 17:34:50,2023-04-26 17:34:57,7.367s,PASSED
+,,,,,,,
+Test Cases/verifyPriceInCart,Chrome 112.0.0.0,,,2023-04-26 17:34:57,2023-04-26 17:35:10,13.042s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-26 17:34:57,2023-04-26 17:34:59,2.091s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-26 17:34:59,2023-04-26 17:35:01,1.396s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-26 17:35:01,2023-04-26 17:35:01,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 112.0.0.0,,,2023-04-26 17:35:01,2023-04-26 17:35:02,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 112.0.0.0,,,2023-04-26 17:35:02,2023-04-26 17:35:02,0.730s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 112.0.0.0,,,2023-04-26 17:35:02,2023-04-26 17:35:03,0.430s,PASSED
+"rowCount = findTestData(""ProductData"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-26 17:35:03,2023-04-26 17:35:03,0.045s,PASSED
+arr = new java.util.ArrayList(),Chrome 112.0.0.0,,,2023-04-26 17:35:03,2023-04-26 17:35:03,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 112.0.0.0,,,2023-04-26 17:35:03,2023-04-26 17:35:03,0.085s,PASSED
+for (String pp : arr),Chrome 112.0.0.0,,,2023-04-26 17:35:03,2023-04-26 17:35:10,7.433s,PASSED

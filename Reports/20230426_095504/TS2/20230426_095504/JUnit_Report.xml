@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS2" time="32.735" tests="2" failures="0" errors="0">
+   <testsuite name="TS2" tests="2" failures="0" errors="0" time="32.735" skipped="0" timestamp="2023-04-26 09:55:21" hostname="141572 - 2G53N13.ap.corp.arrow.com" id="Test Suites/TS2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\141572\\git\\KTP\\Reports\\20230426_095504\\TS2\\20230426_095504"/>
+         <property name="logFiles" value="C:\\Users\\141572\\git\\KTP\\Reports\\20230426_095504\\TS2\\20230426_095504\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="141572 - 2G53N13.ap.corp.arrow.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="10.126.68.237"/>
+         <property name="sessionId" value="4f496078b95647398e3a2976e634e3cc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC2" time="17.389" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[2023-04-26 09:55:21 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+2023-04-26 09:55:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 09:55:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 09:55:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 09:55:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 09:55:25 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 09:55:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 09:55:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-26 09:55:27 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-26 09:55:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 09:55:28 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 09:55:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 09:55:29 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 09:55:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 09:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 09:55:29 - [TEST_STEP][PASSED] - rowCount = findTestData("ProductData").getRowNumbers(): null
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - arr = new java.util.ArrayList(): null
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - for ([i = 1, i <= rowCount, (i++)]): null
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - arr.add(findTestData("ProductData").getValue("ProductTitle", i)): null
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - arr.add(findTestData("ProductData").getValue("ProductTitle", i)): null
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - for (String pp : arr): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - ProductTitle = getText(findTestObject("Object Repository/txt_product_title", ["ProductTitle":pp])): Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Backpack'
+
+2023-04-26 09:55:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Backpack'
+
+2023-04-26 09:55:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp]), 10): Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:31 - [TEST_STEP][PASSED] - expectedPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp])): Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/icon_add_to_cart"), 10): Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/icon_add_to_cart")): Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/cartPage/txt_Product_title", ["ProductTitle":pp]), 10): Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:33 - [TEST_STEP][PASSED] - actualPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:33 - [TEST_STEP][PASSED] - verifyMatch(actualPrice, expectedPrice, false, CONTINUE_ON_FAILURE): Actual text '$29.99' and expected text '$29.99' are matched 
+
+2023-04-26 09:55:33 - [MESSAGE][PASSED] - Actual text '$29.99' and expected text '$29.99' are matched 
+
+2023-04-26 09:55:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cartPage/btn_continue_shopping")): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:34 - [TEST_STEP][PASSED] - ProductTitle = getText(findTestObject("Object Repository/txt_product_title", ["ProductTitle":pp])): Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Bolt T-Shirt'
+
+2023-04-26 09:55:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Bolt T-Shirt'
+
+2023-04-26 09:55:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp]), 10): Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:35 - [TEST_STEP][PASSED] - expectedPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp])): Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/icon_add_to_cart"), 10): Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/icon_add_to_cart")): Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/cartPage/txt_Product_title", ["ProductTitle":pp]), 10): Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:37 - [MESSAGE][PASSED] - Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:37 - [TEST_STEP][PASSED] - actualPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:38 - [TEST_STEP][PASSED] - verifyMatch(actualPrice, expectedPrice, false, CONTINUE_ON_FAILURE): Actual text '$15.99' and expected text '$15.99' are matched 
+
+2023-04-26 09:55:38 - [MESSAGE][PASSED] - Actual text '$15.99' and expected text '$15.99' are matched 
+
+2023-04-26 09:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cartPage/btn_continue_shopping")): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC2" time="14.859" classname="Test Cases/TC2" status="PASSED">
+         <system-out><![CDATA[2023-04-26 09:55:39 - [TEST_CASE][PASSED] - Test Cases/TC2: Test Cases/TC2
+
+2023-04-26 09:55:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-26 09:55:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-04-26 09:55:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-26 09:55:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-26 09:55:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-26 09:55:41 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 09:55:42 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-04-26 09:55:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-04-26 09:55:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-04-26 09:55:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_user-name"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 09:55:44 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_user-name'
+
+2023-04-26 09:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_password"), "secret_sauce"): Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 09:55:44 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Page_Swag Labs/input_Swag Labs_password'
+
+2023-04-26 09:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/input_Swag Labs_login-button")): Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 09:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/input_Swag Labs_login-button' is clicked on
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - rowCount = findTestData("ProductData").getRowNumbers(): null
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - arr = new java.util.ArrayList(): null
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - for ([i = 1, i <= rowCount, (i++)]): null
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - arr.add(findTestData("ProductData").getValue("ProductTitle", i)): null
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - arr.add(findTestData("ProductData").getValue("ProductTitle", i)): null
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - for (String pp : arr): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:45 - [TEST_STEP][PASSED] - ProductTitle = getText(findTestObject("Object Repository/txt_product_title", ["ProductTitle":pp])): Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Backpack'
+
+2023-04-26 09:55:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Backpack'
+
+2023-04-26 09:55:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp]), 10): Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:46 - [TEST_STEP][PASSED] - expectedPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp])): Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/icon_add_to_cart"), 10): Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/icon_add_to_cart")): Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/cartPage/txt_Product_title", ["ProductTitle":pp]), 10): Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:48 - [MESSAGE][PASSED] - Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:48 - [TEST_STEP][PASSED] - actualPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$29.99'
+
+2023-04-26 09:55:48 - [TEST_STEP][PASSED] - verifyMatch(actualPrice, expectedPrice, false, CONTINUE_ON_FAILURE): Actual text '$29.99' and expected text '$29.99' are matched 
+
+2023-04-26 09:55:48 - [MESSAGE][PASSED] - Actual text '$29.99' and expected text '$29.99' are matched 
+
+2023-04-26 09:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cartPage/btn_continue_shopping")): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:49 - [TEST_STEP][PASSED] - ProductTitle = getText(findTestObject("Object Repository/txt_product_title", ["ProductTitle":pp])): Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Bolt T-Shirt'
+
+2023-04-26 09:55:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/txt_product_title' is: 'Sauce Labs Bolt T-Shirt'
+
+2023-04-26 09:55:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp]), 10): Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/btn_add_to_cart' successfully
+
+2023-04-26 09:55:50 - [TEST_STEP][PASSED] - expectedPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/btn_add_to_cart", ["ProductTitle":pp])): Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/btn_add_to_cart' is clicked on
+
+2023-04-26 09:55:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/icon_add_to_cart"), 10): Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/icon_add_to_cart' successfully
+
+2023-04-26 09:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/icon_add_to_cart")): Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/icon_add_to_cart' is clicked on
+
+2023-04-26 09:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/cartPage/txt_Product_title", ["ProductTitle":pp]), 10): Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/cartPage/txt_Product_title' is present
+
+2023-04-26 09:55:52 - [TEST_STEP][PASSED] - actualPrice = getText(findTestObject("Object Repository/cartPage/txt_product_price", ["ProductTitle":pp])): Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/cartPage/txt_product_price' is: '$15.99'
+
+2023-04-26 09:55:53 - [TEST_STEP][PASSED] - verifyMatch(actualPrice, expectedPrice, false, CONTINUE_ON_FAILURE): Actual text '$15.99' and expected text '$15.99' are matched 
+
+2023-04-26 09:55:53 - [MESSAGE][PASSED] - Actual text '$15.99' and expected text '$15.99' are matched 
+
+2023-04-26 09:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cartPage/btn_continue_shopping")): Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on
+
+2023-04-26 09:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/cartPage/btn_continue_shopping' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-26 09:55:21 - [TEST_SUITE][PASSED] - TS2: Test Cases/TC2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

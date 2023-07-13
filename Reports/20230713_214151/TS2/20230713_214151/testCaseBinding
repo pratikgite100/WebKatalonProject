@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/verifyPriceInCart","testCaseId":"Test Cases/verifyPriceInCart","iterationVariableName":"price","bindedValues":{"productTitle":"\u0027Sauce Labs Backpack\u0027","price":"\u0027$29.99\u0027"}}
+{"testCaseName":"Test Cases/verifyPriceInCart","testCaseId":"Test Cases/verifyPriceInCart","iterationVariableName":"price","bindedValues":{"productTitle":"\u0027Sauce Labs Bolt T-Shirt\u0027","price":"\u0027$15.99\u0027"}}
+{"testCaseName":"Test Cases/verifySortingProductsFeature","testCaseId":"Test Cases/verifySortingProductsFeature","iterationVariableName":""}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>19442311-ae70-4be2-bbac-de463601e894</testSuiteGuid>
+   <testCaseLink>
+      <guid>17bac02a-4ca7-4dc3-a911-48b8a32e94ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>7bba30f7-c22d-413a-949b-e9a57aa07f81</id>
+         <masked>false</masked>
+         <name>price</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/verifyPriceInCart</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2569f15e-d88e-4f41-8a96-f5fa4379d354</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ProductData</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>2569f15e-d88e-4f41-8a96-f5fa4379d354</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ProductTitle</value>
+         <variableId>893283f6-a3d3-40f2-8782-18fa6cbd1454</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2569f15e-d88e-4f41-8a96-f5fa4379d354</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Price</value>
+         <variableId>7bba30f7-c22d-413a-949b-e9a57aa07f81</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8c3c7c1-9194-457b-966e-6e4d57908c94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/verifySortingProductsFeature</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

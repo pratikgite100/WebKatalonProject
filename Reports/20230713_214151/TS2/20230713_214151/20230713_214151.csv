@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2,Chrome 114.0.0.0,,,2023-07-13 21:41:56,2023-07-13 21:42:59,1m - 2.287s,PASSED
+,,,,,,,
+Test Cases/verifyPriceInCart,Chrome 114.0.0.0,,,2023-07-13 21:41:57,2023-07-13 21:42:18,21.179s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-13 21:41:58,2023-07-13 21:42:02,4.289s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,,,2023-07-13 21:42:02,2023-07-13 21:42:06,3.424s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-13 21:42:06,2023-07-13 21:42:06,0.173s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,,,2023-07-13 21:42:06,2023-07-13 21:42:07,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 114.0.0.0,,,2023-07-13 21:42:07,2023-07-13 21:42:08,0.844s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-07-13 21:42:08,2023-07-13 21:42:08,0.631s,PASSED
+"rowCount = findTestData(""ProductData"").getRowNumbers()",Chrome 114.0.0.0,,,2023-07-13 21:42:08,2023-07-13 21:42:10,1.321s,PASSED
+arr = new java.util.ArrayList(),Chrome 114.0.0.0,,,2023-07-13 21:42:10,2023-07-13 21:42:10,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 114.0.0.0,,,2023-07-13 21:42:10,2023-07-13 21:42:10,0.175s,PASSED
+for (String pp : arr),Chrome 114.0.0.0,,,2023-07-13 21:42:10,2023-07-13 21:42:18,8.477s,PASSED
+,,,,,,,
+Test Cases/verifyPriceInCart,Chrome 114.0.0.0,,,2023-07-13 21:42:18,2023-07-13 21:42:35,16.965s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-13 21:42:18,2023-07-13 21:42:21,2.243s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,,,2023-07-13 21:42:21,2023-07-13 21:42:24,3.350s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,,,2023-07-13 21:42:24,2023-07-13 21:42:24,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,,,2023-07-13 21:42:24,2023-07-13 21:42:25,0.953s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 114.0.0.0,,,2023-07-13 21:42:25,2023-07-13 21:42:26,0.908s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,,,2023-07-13 21:42:26,2023-07-13 21:42:26,0.562s,PASSED
+"rowCount = findTestData(""ProductData"").getRowNumbers()",Chrome 114.0.0.0,,,2023-07-13 21:42:26,2023-07-13 21:42:27,0.063s,PASSED
+arr = new java.util.ArrayList(),Chrome 114.0.0.0,,,2023-07-13 21:42:27,2023-07-13 21:42:27,0.001s,PASSED
+"for ([i = 1, i <= rowCount, (i++)])",Chrome 114.0.0.0,,,2023-07-13 21:42:27,2023-07-13 21:42:27,0.208s,PASSED
+for (String pp : arr),Chrome 114.0.0.0,,,2023-07-13 21:42:27,2023-07-13 21:42:35,8.502s,PASSED
+,,,,,,,
+Test Cases/verifySortingProductsFeature,Chrome 114.0.0.0,,,2023-07-13 21:42:35,2023-07-13 21:42:59,23.374s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 114.0.0.0,open url,,2023-07-13 21:42:35,2023-07-13 21:42:41,5.230s,PASSED
+maximizeWindow(),Chrome 114.0.0.0,maximize window,,2023-07-13 21:42:41,2023-07-13 21:42:41,0.150s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 114.0.0.0,send username,,2023-07-13 21:42:41,2023-07-13 21:42:42,0.857s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 114.0.0.0,send password,,2023-07-13 21:42:42,2023-07-13 21:42:42,0.801s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 114.0.0.0,click on login Button,,2023-07-13 21:42:42,2023-07-13 21:42:43,0.615s,PASSED
+"eleCount = findWebElements(findTestObject(""Object Repository/PLP/count_products""), 10).size()",Chrome 114.0.0.0,find out count of product count present in PLP,,2023-07-13 21:42:43,2023-07-13 21:42:43,0.421s,PASSED
+flag = com.PLP.CommonKeywords.validateListIsInDescendingOrderOrNot(eleCount),Chrome 114.0.0.0,verify all products are sorted as per selected option in dropdown,,2023-07-13 21:42:43,2023-07-13 21:42:47,4.008s,PASSED
+"verifyMatch(flag, ""true"", false, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-13 21:42:47,2023-07-13 21:42:47,0.002s,PASSED
+flag1 = com.PLP.CommonKeywords.validateListIsInAscendingOrderOrNot(eleCount),Chrome 114.0.0.0,,,2023-07-13 21:42:47,2023-07-13 21:42:51,3.846s,PASSED
+"verifyMatch(flag1, ""true"", false, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-13 21:42:51,2023-07-13 21:42:51,0.002s,PASSED
+flag2 = com.PLP.CommonKeywords.isPriceAscending(eleCount),Chrome 114.0.0.0,,,2023-07-13 21:42:51,2023-07-13 21:42:55,3.657s,PASSED
+"verifyMatch(flag2, ""true"", false, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-13 21:42:55,2023-07-13 21:42:55,0.003s,PASSED
+flag3 = com.PLP.CommonKeywords.isPriceDescending(eleCount),Chrome 114.0.0.0,,,2023-07-13 21:42:55,2023-07-13 21:42:59,3.608s,PASSED
+"verifyMatch(flag3, ""true"", false, CONTINUE_ON_FAILURE)",Chrome 114.0.0.0,,,2023-07-13 21:42:59,2023-07-13 21:42:59,0.002s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2,,,,2023-04-25 17:35:03,2023-04-25 17:35:04,1.149s,ERROR
+,,,,,,,
+Test Cases/TC2,,,,2023-04-25 17:35:03,2023-04-25 17:35:03,0.380s,ERROR
+,,,,,,,
+Test Cases/TC2,,,,2023-04-25 17:35:03,2023-04-25 17:35:04,0.392s,ERROR

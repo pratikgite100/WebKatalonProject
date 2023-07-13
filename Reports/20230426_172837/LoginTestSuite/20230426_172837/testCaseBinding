@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"Username","bindedValues":{"Username":"\u0027standard_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"Username","bindedValues":{"Username":"\u0027locked_out_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"Username","bindedValues":{"Username":"\u0027problem_user\u0027","Password":"\u0027secret_sauce\u0027"}}
+{"testCaseName":"Test Cases/Login","testCaseId":"Test Cases/Login","iterationVariableName":"Username","bindedValues":{"Username":"\u0027performance_glitch_user\u0027","Password":"\u0027secret_sauce\u0027"}}

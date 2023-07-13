@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2,Chrome 112.0.0.0,,,2023-04-25 17:52:40,2023-04-25 17:53:00,20.554s,ERROR
+,,,,,,,
+Test Cases/TC2,Chrome 112.0.0.0,,,2023-04-25 17:52:40,2023-04-25 17:52:52,11.668s,ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-25 17:52:41,2023-04-25 17:52:44,3.472s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-25 17:52:44,2023-04-25 17:52:46,1.762s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-25 17:52:46,2023-04-25 17:52:46,0.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 112.0.0.0,,,2023-04-25 17:52:46,2023-04-25 17:52:47,1.101s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 112.0.0.0,,,2023-04-25 17:52:47,2023-04-25 17:52:48,0.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 112.0.0.0,,,2023-04-25 17:52:48,2023-04-25 17:52:48,0.492s,PASSED
+"ProductTitle = getText(findTestObject(""Object Repository/txt_product_title"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:48,2023-04-25 17:52:49,0.422s,PASSED
+"scrollToElement(findTestObject(""Object Repository/btn_add_to_cart"", [""ProductTitle"":productTitle]), 10)",Chrome 112.0.0.0,,,2023-04-25 17:52:49,2023-04-25 17:52:49,0.565s,PASSED
+"expectedPrice = getText(findTestObject(""Object Repository/cartPage/txt_product_price"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:49,2023-04-25 17:52:50,0.353s,PASSED
+"print(""***************************************************************************"")",Chrome 112.0.0.0,,,2023-04-25 17:52:50,2023-04-25 17:52:50,0.019s,PASSED
+"print(""
+
+expected Price "" + expectedPrice + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:52:50,2023-04-25 17:52:50,0.001s,PASSED
+"click(findTestObject(""Object Repository/btn_add_to_cart"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:50,2023-04-25 17:52:50,0.391s,PASSED
+"scrollToElement(findTestObject(""Object Repository/icon_add_to_cart""), 10)",Chrome 112.0.0.0,,,2023-04-25 17:52:50,2023-04-25 17:52:51,0.439s,PASSED
+"click(findTestObject(""Object Repository/icon_add_to_cart""))",Chrome 112.0.0.0,,,2023-04-25 17:52:51,2023-04-25 17:52:51,0.410s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/cartPage/txt_Product_title"", [""ProductTitle"":productTitle]), 10)",Chrome 112.0.0.0,,,2023-04-25 17:52:51,2023-04-25 17:52:51,0.476s,PASSED
+"actualPrice = getText(findTestObject(""Object Repository/cartPage/txt_product_price"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:51,2023-04-25 17:52:52,0.351s,PASSED
+"print(""__________________________________________________________"")",Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:52:52,0.000s,PASSED
+"print(""
+
+Actual Price "" + actualPrice + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:52:52,0.000s,PASSED
+"print(""
+
+ Price "" + price + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:52:52,0.000s,PASSED
+"rowCount = findTestData(""Excel file Test Data Login"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:52:52,0.025s,ERROR
+,,,,,,,
+Test Cases/TC2,Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:53:00,8.529s,ERROR
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-25 17:52:52,2023-04-25 17:52:54,2.130s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 112.0.0.0,,,2023-04-25 17:52:54,2023-04-25 17:52:55,0.755s,PASSED
+maximizeWindow(),Chrome 112.0.0.0,,,2023-04-25 17:52:55,2023-04-25 17:52:55,0.155s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_user-name""), ""standard_user"")",Chrome 112.0.0.0,,,2023-04-25 17:52:55,2023-04-25 17:52:56,0.900s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_password""), ""secret_sauce"")",Chrome 112.0.0.0,,,2023-04-25 17:52:56,2023-04-25 17:52:56,0.701s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Swag Labs_login-button""))",Chrome 112.0.0.0,,,2023-04-25 17:52:56,2023-04-25 17:52:57,0.424s,PASSED
+"ProductTitle = getText(findTestObject(""Object Repository/txt_product_title"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:57,2023-04-25 17:52:57,0.463s,PASSED
+"scrollToElement(findTestObject(""Object Repository/btn_add_to_cart"", [""ProductTitle"":productTitle]), 10)",Chrome 112.0.0.0,,,2023-04-25 17:52:57,2023-04-25 17:52:58,0.576s,PASSED
+"expectedPrice = getText(findTestObject(""Object Repository/cartPage/txt_product_price"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:58,2023-04-25 17:52:58,0.336s,PASSED
+"print(""***************************************************************************"")",Chrome 112.0.0.0,,,2023-04-25 17:52:58,2023-04-25 17:52:58,0.001s,PASSED
+"print(""
+
+expected Price "" + expectedPrice + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:52:58,2023-04-25 17:52:58,0.000s,PASSED
+"click(findTestObject(""Object Repository/btn_add_to_cart"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:52:58,2023-04-25 17:52:59,0.363s,PASSED
+"scrollToElement(findTestObject(""Object Repository/icon_add_to_cart""), 10)",Chrome 112.0.0.0,,,2023-04-25 17:52:59,2023-04-25 17:52:59,0.535s,PASSED
+"click(findTestObject(""Object Repository/icon_add_to_cart""))",Chrome 112.0.0.0,,,2023-04-25 17:52:59,2023-04-25 17:53:00,0.373s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/cartPage/txt_Product_title"", [""ProductTitle"":productTitle]), 10)",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.457s,PASSED
+"actualPrice = getText(findTestObject(""Object Repository/cartPage/txt_product_price"", [""ProductTitle"":productTitle]))",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.342s,PASSED
+"print(""__________________________________________________________"")",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.000s,PASSED
+"print(""
+
+Actual Price "" + actualPrice + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.000s,PASSED
+"print(""
+
+ Price "" + price + ""
+
+"")",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.000s,PASSED
+"rowCount = findTestData(""Excel file Test Data Login"").getRowNumbers()",Chrome 112.0.0.0,,,2023-04-25 17:53:00,2023-04-25 17:53:00,0.002s,ERROR

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verifyPriceInCart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a20e62e-06a1-4670-88c2-a50f85f73c10</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>893283f6-a3d3-40f2-8782-18fa6cbd1454</id>
+      <masked>false</masked>
+      <name>productTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bba30f7-c22d-413a-949b-e9a57aa07f81</id>
+      <masked>false</masked>
+      <name>price</name>
+   </variable>
+</TestCaseEntity>
