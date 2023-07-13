@@ -49,6 +49,6 @@ WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Checkout Yo
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Cancel_continue'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Finish'))
-
+WebUI.delay(10)
 WebUI.closeBrowser()
 

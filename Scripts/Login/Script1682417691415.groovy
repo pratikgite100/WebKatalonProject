@@ -31,6 +31,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Swag Labs/txt
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Swag Labs/txt_swag_lab'), FailureHandling.CONTINUE_ON_FAILURE)
 WebUI.delay(10)
+
 WebUI.closeBrowser()
 
 
